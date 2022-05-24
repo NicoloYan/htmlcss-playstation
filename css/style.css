@@ -23,6 +23,20 @@ a {
     padding: 0.5rem;
     border-radius: 1rem;
 }
+.gray_text {
+    color: gray;
+}
+.more_info_btn {
+    background-color: #2d64e6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.ms_card {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HEADER */
 
 header {
@@ -136,21 +150,38 @@ nav {
 
 /* Some games section */
 
-.ms_card img {
+.some_games .img_box img {
     width: 100%;
     border-radius: 15px;
 }
 
+/* PS5 Section */
 
-
-
-
-
-
-
-
-
-
+.ps_5 {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.no_limits {
+    text-transform: uppercase;
+    color: #0e79d0;
+    font-size: 10px;
+}
+.ps_5 h2 {
+    margin-bottom: 1rem;
+}
+.ps5_advantages {
+    color: gray;
+    margin-bottom: 4rem;
+}
+.ps_5 .img_box img {
+    width: 100%;
+}
+.accessory_details {
+    display: none;
+}
+#blue_border {
+    border-bottom: 3px solid #0e79d0;
+}
 
 
 
@@ -168,7 +199,9 @@ nav {
 /* md */
 
 @media screen and ( min-width: 768px ) {
-    
+    .accessory_details {
+        display: block;
+    }
 }
 
 /* lg */
