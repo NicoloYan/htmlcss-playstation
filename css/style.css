@@ -282,6 +282,15 @@ nav {
     border-radius: 1rem;
 }
 
+/* Social Media Section */
+
+.social_media {
+    padding: 3rem 0;
+}
+.social_media .container .row .col img {
+    width: 100%;
+}
+
 
 
 
