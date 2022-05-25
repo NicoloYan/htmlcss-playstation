@@ -227,7 +227,31 @@ nav {
     width: 100%;
 }
 
+/* PS Plus Section */
 
+.ps_plus {
+    background-color: #bebcbb;
+    height: 300px;
+}
+.ps_plus_logo {
+    width: 60%;
+}
+.ps_plus_details {
+    margin: 1.5rem 0;
+}
+.explore_ps_plus_btn {
+    background-color: #d9dadc;
+    color: #4674e3;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.hidden_mobile {
+    display: none;
+}
+.april_games {
+    height: 300px;
+    width: 100%;
+}
 
 
 
@@ -250,6 +274,9 @@ nav {
 
 @media screen and ( min-width: 768px ) {
     .accessory_details {
+        display: block;
+    }
+    .hidden_mobile {
         display: block;
     }
 }
