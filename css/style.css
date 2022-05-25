@@ -291,11 +291,27 @@ nav {
     width: 100%;
 }
 
+/* FOOTER */
 
+footer {
+    background-color: #00439c;
+    padding: 3rem 0;
+    color: white;
+}
+._country {
+    margin: 2rem 0;
 
-
-
-
+}
+.globe {
+    margin-right: 0.5rem;
+    width: 20px;
+}
+.sie_logo {
+    width: 110px;
+}
+footer .more_info_link {
+    text-decoration: underline;
+}
 
 
 /* Media Queries */
@@ -348,4 +364,11 @@ nav {
         background-size: cover;
         height: 600px;
     }
+
+    /* Footer */
+
+    .credits {
+        width: 50%;
+    }
+    
 }
