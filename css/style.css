@@ -253,7 +253,14 @@ nav {
     width: 100%;
 }
 
+/* PS Store Discounts Section */
 
+.store_discounts {
+    padding: 3rem 0;
+}
+.store_discounts .container .row .col img {
+    width: 100%;
+}
 
 
 
