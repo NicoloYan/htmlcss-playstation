@@ -262,6 +262,25 @@ nav {
     width: 100%;
 }
 
+/* PS Now Section */
+
+.ps_now {
+    background-color: #161c3b;
+    height: 300px;
+}
+.ps_now_logo {
+    width: 60%;
+}
+.ps_now_details {
+    margin: 1.5rem 0;
+    color: white;
+}
+.explore_ps_now_btn {
+    background-color: #f5f5f5;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
 
 
 
