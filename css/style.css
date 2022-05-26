@@ -313,13 +313,7 @@ footer .more_info_link {
     text-decoration: underline;
 }
 
-
 /* Media Queries */
-/* sm */
-
-@media screen and ( min-width: 576px ) {
-    
-}
 
 /* md */
 
@@ -349,7 +343,7 @@ footer .more_info_link {
         display: none;
     }
 
-    /* Main */
+    /* MAIN */
 
     /* Jumbotron */
     .ms_heading {
@@ -365,7 +359,7 @@ footer .more_info_link {
         height: 600px;
     }
 
-    /* Footer */
+    /* FOOTER */
 
     .credits {
         width: 50%;
